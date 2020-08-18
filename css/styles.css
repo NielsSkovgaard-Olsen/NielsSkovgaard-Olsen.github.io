@@ -1,0 +1,243 @@
+
+
+/*global styles#######################################*/
+
+* {
+   font-family:"Garamond";
+   font-size: 25px;
+}
+
+body{
+  background:hsla(288, 29%, 97%, 1);
+  font-size:12px;
+  }
+  h1{
+    color:hsla(326, 95%, 7%, 1);
+    font-size: 45px;
+    font-family: "Garamond";
+    background-color:#ffcd00;
+    /*hsla(46, 100%, 48%, 1);*/
+    font-weight:normal;
+    padding:16px;
+    border-style: solid;
+    border-width:2px;
+    border-color: black;
+  }
+  h2{
+    color:hsla(326, 95%, 7%, 1);
+    font-size: 30px;
+    font-family: "Helvetica";
+    background-color: rgb(211,211,211);
+    padding: 5px;
+    border-style: solid;
+    border-width:1px;
+    border-color: black;
+  }
+  p {
+    color: hsla(336, 42%, 13%, 1); /* magenta */
+  }
+  .title {
+    background-color: hsla(288, 29%, 97%, 1);
+    border-color:hsla(288, 29%, 97%, 1);
+  }
+
+  /* color palet
+  --liver: hsla(17, 27%, 33%, 1);
+  --ghost-white: hsla(288, 29%, 97%, 1);
+  --orange-yellow: hsla(46, 100%, 48%, 1);
+  --wisteria: hsla(262, 54%, 78%, 1);
+  --cadet-blue: hsla(188, 36%, 52%, 1);
+  --whitesmoke: rgb(245,245,245)
+  --lightgray:rgb(211,211,211)
+*/
+
+/*images#######################################*/
+
+img {
+   width: 300px;
+ }
+
+ .background_image {
+    width:70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width:1px;
+    border-color: black;
+  }
+
+  .footer_image {
+     width:100%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-style: solid;
+     border-width:1px;
+     border-color: black;
+   }
+
+
+
+
+/*hyperlinks#######################################*/
+
+/*remove underline of links*/
+li a {
+  text-decoration:none;
+}
+a {
+  text-decoration:none;
+}
+
+/*sentence spacing#######################################*/
+
+/*for indenting*/
+.a {
+  line-height: normal;
+  text-indent: 50px;
+}
+
+/*for space between blocks*/
+.b {
+  line-height: 40%;
+}
+.c {
+  line-height: 20%;
+}
+
+/* margings for tables*/
+.highlight {
+  background-color:hsla(262, 54%, 78%, 1);
+  color: hsla(288, 29%, 97%, 1);
+  font-family:"Arial";
+  width:371px;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.highlight_s {
+  background-color:hsla(262, 54%, 78%, 1);
+  color: hsla(288, 29%, 97%, 1);
+  font-family:"Arial";
+  width:140px;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.transparent_s {
+  background-color:hsla(288, 29%, 97%, 1);
+  color: hsla(288, 29%, 97%, 1);
+  font-family:"Arial";
+  width:140px;
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+}
+.transparent_s1 {
+  background-color:hsla(288, 29%, 97%, 1);
+  width:140px;
+}
+
+.references {
+font-family:"Garamond";
+font-size: 25px;
+}
+
+/*navigator menu#######################################*/
+
+
+/*styling internal menu */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 987px;
+  height: 27px;
+  background-color: hsla(262, 54%, 78%, 1);
+}
+
+.menu_option {
+  float: left;
+}
+/*hsla(336, 42%, 13%, 1)*/
+.menu_option a {
+  display: block;
+  color: hsla(288, 29%, 97%, 1);
+  font-weight: bold;
+  text-align: center;
+  padding: 70.4px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline;
+  font-family:"Arial";
+}
+
+.menu_option a:hover {
+  background-color: hsla(17, 27%, 33%, 1);
+  color: hsla(288, 29%, 97%, 1);
+  font-weight: bold;
+  font-family:"Helvetica";
+}
+
+/*Return button#######################################*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: hsla(262, 54%, 78%, 1); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  font-weight: bold;
+  font-family:"Helvetica";
+}
+
+#myBtn:hover {
+  background-color: hsla(17, 27%, 33%, 1); /* Add a dark-grey background on hover */
+}
+
+
+
+/* Sections##################################### */
+header {
+  background: #343434;
+}
+
+
+/*footer#######################################*/
+footer {
+  /* background: #343434; */
+}
+
+.contact{
+  color:  hsla(288, 29%, 97%, 1);
+  font-weight: bold;
+  font-family:"Helvetica";
+  font-size: 20px;
+}
+.contact_list{
+  list-style-type: none;
+  float: left;
+}
+.menu_footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 30px;
+  background-color: hsla(262, 54%, 78%, 1);
+  border-style: solid;
+  border-width:1px;
+  border-color: black;
+}
