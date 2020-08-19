@@ -155,7 +155,7 @@ font-size: 25px;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  width: 987px;
+  width: 100%;
   height: 27px;
   background-color: hsla(262, 54%, 78%, 1);
 }
