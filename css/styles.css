@@ -53,8 +53,8 @@ body{
 
 /*images#######################################*/
 
-img {
-   width: 300px;
+.profile_image {
+  width:300px;
  }
 
  .background_image {
