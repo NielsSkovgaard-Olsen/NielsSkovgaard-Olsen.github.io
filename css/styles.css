@@ -126,6 +126,7 @@ a {
 }
 
 .highlight_s {
+  border-radius: 3px;
   background-color:hsla(262, 54%, 78%, 1);
   color: hsla(288, 29%, 97%, 1);
   font-family:"Arial";
