@@ -1,5 +1,3 @@
-
-
 /*global styles#######################################*/
 
 * {
@@ -7,11 +5,12 @@
    font-size: 25px;
 }
 
-body{
-  background:hsla(288, 29%, 97%, 1);
-  font-size:12px;
+body {
+    background: hsla(288, 29%, 97%, 1);
+    font-size:12px;
+    margin: 0;
   }
-  h1{
+h1 {
     color:hsla(326, 95%, 7%, 1);
     font-size: 45px;
     font-family: "Garamond";
@@ -23,7 +22,7 @@ body{
     border-width:2px;
     border-color: black;
   }
-  h2{
+h2 {
     color:hsla(326, 95%, 7%, 1);
     font-size: 30px;
     font-family: "Helvetica";
@@ -33,13 +32,18 @@ body{
     border-width:1px;
     border-color: black;
   }
-  p {
+p {
     color: hsla(336, 42%, 13%, 1); /* magenta */
   }
   .title {
     background-color: hsla(288, 29%, 97%, 1);
     border-color:hsla(288, 29%, 97%, 1);
   }
+
+.content-wrap {
+   width: 1500px;
+   margin: 0 auto;
+}
 
   /* color palet
   --liver: hsla(17, 27%, 33%, 1);
@@ -58,17 +62,17 @@ body{
  }
 
  .background_image {
-    width:70%;
-    display: block;
+    width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
     border-style: solid;
     border-width:1px;
     border-color: black;
   }
 
   .footer_image {
-     width:100%;
+     width: 1500px;
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -156,7 +160,6 @@ font-size: 25px;
   padding: 0;
   overflow: hidden;
   width: 100%;
-  height: 27px;
   background-color: hsla(262, 54%, 78%, 1);
 }
 
@@ -169,8 +172,8 @@ font-size: 25px;
   color: hsla(288, 29%, 97%, 1);
   font-weight: bold;
   text-align: center;
-  padding: 30px;
   font-size: 20px;
+  padding: 30px;
   text-decoration: none;
   display: inline;
   font-family:"Arial";
@@ -210,7 +213,7 @@ font-size: 25px;
 
 /* Sections##################################### */
 header {
-  background: #343434;
+  /*background: #343434;*/
 }
 
 
