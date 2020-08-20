@@ -53,11 +53,20 @@ $(function()
 
                     $.ajax({
                 type: "POST",
-                url: 'handler.php',
+                url: 'https://formspree.io/xgenbznp',
                 data: $form.serialize(),
                 success: after_form_submitted,
                 dataType: 'json' 
             });        
+		
+  //<form action="https://formspree.io/xgenbznp" method="POST">
+  //<input type="text" name="name">
+  //<input type="email" name="_replyto">
+  //<input type="submit" value="Send">
+</form>
         
       });	
 });
+
+
+
