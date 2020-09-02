@@ -11,33 +11,6 @@ body {
     margin: 0;
   }
 
-span {
-   transform-origin: 50% 70%;
-}
-
-span:nth-child(1) {
-  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) both;
-}
-
-span:nth-child(2) {
-  margin-right:30px;
-  animation: flipUp 1s .2s cubic-bezier(0.68, -0.55, 0.26, 1.55) both;
-}
-
-span:nth-child(3) {
- margin-right:30px;
- animation: flipUp 1s .4s cubic-bezier(0.68, -0.55, 0.26, 1.55) both;
-}
-
-span:nth-child(4) {
-  animation: flipUp 1s .6s cubic-bezier(0.68, -0.55, 0.26, 1.55) both;
-}
-
-@keyframes flipUp {
-  from {transform: rotateX(90deg);}
-  to {transform: rotateX(0deg);}
-}
-
 h1 {
     color:hsla(326, 95%, 7%, 1);
     font-size: 45px;
